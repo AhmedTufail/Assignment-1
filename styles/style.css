@@ -71,13 +71,18 @@
 .main-sections{
     margin: 100px;
 }
+/* party section styles end here */
+
+/* party section styles start here */
+
+/* event section starts here */
 .event-section{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00)100%);;
     text-align: center;
     line-height: 40px;
     padding: 50px 0;
     border-radius: 10px;
-   }
+}
 .event-red{
     color: red;
 }
@@ -91,6 +96,44 @@
     padding: 10px 20px;
     margin-top: 40px;
 }
-/* party section styles here */
+/* event section ends here */
+
+/* offer section starts here */
+.upcoming-offers{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.offers-left{
+    width: 300px;
+    
+}
+.offers-left>h3{
+    color: red;
+    line-height: 50px;
+}
+.offers-left>h1{
+    padding-bottom: 20px;
+}
+.offers-img img{
+    width: 60%;
+    padding: 20px;
+    margin-left: 50px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+.offers-right{
+    line-height: 50px;
+}
+.offers-right>h2{
+    color: red;
+    font-size: 35px;
+}
+.offers-right>img{
+    padding-top: 80px;
+}
+/* offer section ends here */
 
   
