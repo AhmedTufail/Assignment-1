@@ -35,3 +35,35 @@
     line-height: 70px;
 }
 /* header banner styles end here */
+/* discount section styles start here */
+.discount-section{
+    align-items: center;
+    justify-content: center;
+}
+.discount-text{
+    text-align: center;
+
+}
+.discount-heading{
+    color:#ff0000;
+    font-size: 80px;
+    padding-bottom: 30px;
+    
+}
+.discount-text-deals{
+    color:#ff0000;
+    font-size: 24px;
+    letter-spacing:-2px;
+}
+.discount-categories{
+    font-weight: bold;
+    letter-spacing: 11px;
+    padding-left: 10px;
+
+}
+.discount-img img{
+    width: 600px;
+    margin-left: 350px;
+    padding-top: 50px;    
+}
+/* discount section styles end here */
