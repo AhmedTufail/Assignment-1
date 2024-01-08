@@ -101,38 +101,41 @@
 /* offer section starts here */
 .upcoming-offers{
     display: flex;
-    gap: 5px;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
     margin-top: 80px;
 }
 .offers-left{
-    width: 300px;
-    
+    width: 500px;
+    gap: 10px;
 }
 .offers-left>h3{
     color: red;
-    line-height: 50px;
+    line-height: 10px;
 }
 .offers-left>h1{
     padding-bottom: 20px;
 }
 .offers-img img{
-    width: 60%;
+    width: 70%;
     padding: 20px;
-    margin-left: 50px;
+    margin-left: 80px;
     border: 10px solid red;
     border-radius: 50%;
 }
 .offers-right{
-    line-height: 50px;
+    margin-left: 100px;
+    padding-right: 40px;
+    width: 500px;
+
 }
 .offers-right>h2{
     color: red;
     font-size: 35px;
+    padding-bottom: 10px;
 }
 .offers-right>img{
-    padding-top: 80px;
+    padding-top: 20px;
 }
 /* offer section ends here */
 
