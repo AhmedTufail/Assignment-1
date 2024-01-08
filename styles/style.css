@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* header banner styles start here */
+.header-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+}
+.text-on-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -65%);
+}
+.banner-img{
+    align-items: center;
+    padding: 20px 0;
+    width: 85%;
+    justify-content: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #03000a 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.first-banner-title{
+    font-size: 32px;
+    line-height: 100px;
+    
+}
+.banner-title{
+    font-size: 72px;
+    color:#ffffff;
+    font-weight: 800;
+    line-height: 70px;
+}
+/* header banner styles end here */
