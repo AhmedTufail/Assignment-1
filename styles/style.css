@@ -165,3 +165,20 @@
   .holidays-images img{
     width: 50%;
   }
+  /* portfolio sections styles here */
+  .portfolio-top-title{
+    color: red;
+  }
+  .portfolio-title{
+    font-size: 45px;
+    font-weight: 700;
+  }
+  .portfolio-images{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+  }
+  .portfolio-images img{
+    width: 100%;
+  }
