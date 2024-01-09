@@ -190,3 +190,32 @@
     padding: 80px;
     background-color: #f7c5c5;
   }
+
+  /* footer starts here */
+  .footer{
+    background-color: #03000a;
+    color: #ffffff;
+    padding: 100px;
+  }
+  .footer-top{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+  .footer-top-left{
+    text-align: left;
+  }
+  .footer-top-right{
+    
+  }
+  .contact-number{
+    display: flex;
+    gap: 30px;
+    padding-right: 30px;
+
+  }
+  .contact-web{
+    display: flex;
+    gap: 30px;
+  }
+  /* footer ends here */
