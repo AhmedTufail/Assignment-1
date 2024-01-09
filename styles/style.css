@@ -39,6 +39,7 @@
 .discount-section{
     align-items: center;
     justify-content: center;
+    /* margin-bottom: 600px; */
 }
 .discount-text{
     text-align: center;
@@ -59,12 +60,17 @@
     font-weight: bold;
     letter-spacing: 11px;
     padding-left: 10px;
+}
+.discount-img{
+  position: relative;
 
+  
 }
 .discount-img img{
-    width: 600px;
-    margin-left: 350px;
-    padding-top: 50px;    
+  padding-left: 300px;
+  /* width: 800px; */
+  /* height: 500px; */
+  /* margin-bottom: 200px; */
 }
 /* discount section styles end here */
 /*  All main sections start here */
@@ -76,7 +82,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  position:relative;
   margin: 100px 0;
   padding: 300px;
   width: 550px;
@@ -217,10 +223,10 @@
     height: 313px;
     width: 450px;
   }
-  .discount-img img{
+  .holiday-discount-img img{
   position: absolute;
-  left: 20%;
-  top: -10%;
+  left: 52%;
+  top: -2%;
   width: 140px;
   }
   /* portfolio sections styles here */
