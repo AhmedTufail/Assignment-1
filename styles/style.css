@@ -211,12 +211,7 @@
     /* mix-blend-mode:hue; */
     /* background-repeat: no-repeat; */
   }
-  .holiday-top-left{
-    /* background-blend-mode: color-dodge; */
-    /* mix-blend-mode: color-dodge; */
-    /* height: 400px; */
-
-  }
+  
   .holiday-top-right img{
     position: relative;
     height: 313px;
