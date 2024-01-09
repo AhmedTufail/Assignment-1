@@ -139,4 +139,29 @@
 }
 /* offer section ends here */
 
-  
+  /* holidays-section styles here */
+  .holidays-section{
+    text-align: center;
+    margin: 100px;
+  }
+  .holidays{
+    color: #ff0000;
+    font-weight: 800;
+  }
+  .holidays-title{
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  .holidays-description{
+    margin: 0 100px;
+  }
+  .holidays-images{
+    margin:25px auto;
+    display: flex;
+    width: 1000px;
+    border-bottom: 200px solid red;
+    border-radius:10px ;
+  }
+  .holidays-images img{
+    width: 50%;
+  }
