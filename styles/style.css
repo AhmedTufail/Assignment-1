@@ -193,20 +193,20 @@
 
   /* footer starts here */
   .footer{
-    background-color: #03000a;
     color: #ffffff;
+    background-color: #070211;
     padding: 100px;
   }
   .footer-top{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 30px;
   }
   .footer-top-left{
     text-align: left;
   }
   .footer-top-right{
-    
+    padding-right: 150px;
   }
   .contact-number{
     display: flex;
@@ -217,5 +217,20 @@
   .contact-web{
     display: flex;
     gap: 30px;
+  }
+
+  .footer-middle{
+    display: flex;
+    padding: 20px 0;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .footer-middle img{
+    margin-left: 20px;
+  }
+  .footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
   }
   /* footer ends here */
