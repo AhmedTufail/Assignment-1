@@ -72,7 +72,40 @@
     margin: 100px;
 }
 /* party section styles end here */
-
+.party-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 100px 0;
+  padding: 300px;
+  width: 550px;
+  background-image:url("../resource/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+.party-text{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: #ffffff;
+}
+.party-text-description{
+  width: 500px;
+  padding: 20px 0;
+}
+.btn-join-us{
+  padding-left: 50px;
+  font-weight: 800;
+}
+.party-img img{
+  position:absolute;
+  top: 20%;
+  margin-left: 500px;
+  mix-blend-mode:multiply;
+}
 /* party section styles start here */
 
 /* event section starts here */
@@ -250,7 +283,6 @@
   .footer-middle{
     display: flex;
     padding: 20px 0;
-    /* align-items: center; */
     justify-content: center;
   }
   .footer-middle img{
@@ -262,3 +294,7 @@
     padding: 20px 0;
   }
   /* footer ends here */
+
+  .hide{
+    display: none;
+  }
