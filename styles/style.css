@@ -77,7 +77,7 @@
 
 /* event section starts here */
 .event-section{
-    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00)100%);;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00)100%);
     text-align: center;
     line-height: 40px;
     padding: 50px 0;
@@ -181,4 +181,12 @@
   }
   .portfolio-images img{
     width: 100%;
+  }
+
+  /* subscription section styles here */
+  .subscription-section{
+    text-align: center;
+    border-radius: 10px;
+    padding: 80px;
+    background-color: #f7c5c5;
   }
